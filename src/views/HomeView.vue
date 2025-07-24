@@ -1,10 +1,10 @@
 <script setup>
 import { ref } from 'vue'
-import OurSolutionImage from '/public/OurSolutionImage.webp'
-import DPrizeImage from '/public/dPrizeImage.webp'
-import HeroImage from '/public/heroImage.webp'
-import TestimonialImage from '/public/testimonialImage.webp'
-import QuotationIcon from '/public/quotationIcon.webp'
+import OurSolutionImage from '/src/assets/imgs/OurSolutionImage.webp'
+import DPrizeImage from '/src/assets/imgs/dPrizeImage.webp'
+import HeroImage from '/src/assets/imgs/heroImage.webp'
+import TestimonialImage from '/src/assets/imgs/testimonialImage.webp'
+import QuotationIcon from '/src/assets/imgs/quotationIcon.webp'
 
 const isMobileMenuOpen = ref(false)
 
