@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from 'vue'
-import OurSolutionImage from '/public/ourSolutionImage.webp'
+import OurSolutionImage from '/public/OurSolutionImage.webp'
 import DPrizeImage from '/public/dPrizeImage.webp'
 import HeroImage from '/public/heroImage.webp'
 import TestimonialImage from '/public/testimonialImage.webp'
