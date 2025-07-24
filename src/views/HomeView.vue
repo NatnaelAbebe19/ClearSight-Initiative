@@ -125,7 +125,7 @@ const toggleMobileMenu = () => {
 
   <div
     class="w-full h-[500px] md:h-[700px] text-white flex flex-col justify-center bg-cover bg-center px-4 md:px-0"
-    style="background-image: url('/heroImage.webp')"
+    :style="`background-image: url(${HeroImage})`"
   >
     <div class="text-4xl md:text-8xl ml-4 md:ml-28 font-bold">
       <h1>Restoring Sight.</h1>
