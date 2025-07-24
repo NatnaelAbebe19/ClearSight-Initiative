@@ -1,0 +1,5 @@
+@import 'tailwindcss';
+@theme {
+  --color-accentBlue: #1f3c88;
+  --color-accentGold: #ffc60b;
+}
