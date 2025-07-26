@@ -125,7 +125,7 @@ const toggleMobileMenu = () => {
 
   <div
     class="w-full h-[500px] md:h-[700px] text-white flex flex-col justify-center bg-cover bg-center px-4 md:px-0"
-    :style="`background-image: url(${HeroImage})`"
+    style="background-image: url('/public/HeroImage.webp')"
   >
     <div class="text-4xl md:text-8xl ml-4 md:ml-28 font-bold">
       <h1>Restoring Sight.</h1>
@@ -182,7 +182,7 @@ const toggleMobileMenu = () => {
       </div>
       <div class="flex-1 order-1 md:order-2">
         <img
-          :src="HeroImage"
+          src="/public/heroImage.webp"
           alt="Person with glasses reading"
           class="w-full rounded-lg shadow-lg"
         />
@@ -195,7 +195,7 @@ const toggleMobileMenu = () => {
     <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-6 md:gap-12">
       <div class="flex-1">
         <img
-          :src="OurSolutionImage"
+          src="/public/OurSolutionImage.webp"
           alt="Person getting glasses fitted"
           class="w-full rounded-lg shadow-lg"
         />
@@ -227,7 +227,11 @@ const toggleMobileMenu = () => {
       </div>
       <div class="flex-1 order-1 md:order-2">
         <div class="bg-gray-100 p-6 md:p-8 rounded-lg text-center">
-          <img :src="DPrizeImage" alt="D-Prize Logo" class="w-24 md:w-32 mx-auto mb-6" />
+          <img
+            src="/public/DPrizeImage.webp"
+            alt="D-Prize Logo"
+            class="w-24 md:w-32 mx-auto mb-6"
+          />
           <p class="text-gray-700 font-medium mb-2 text-sm md:text-base">
             We seed new organizations
           </p>
@@ -246,13 +250,13 @@ const toggleMobileMenu = () => {
     <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-6 md:gap-12">
       <div class="flex-1">
         <img
-          :src="TestimonialImage"
+          src="/public/TestimonialImage.webp"
           alt="Man reading Bible with glasses"
           class="w-full rounded-lg shadow-lg"
         />
       </div>
       <div class="flex-1">
-        <img :src="QuotationIcon" alt="Quote" class="w-12 h-12 md:w-16 md:h-16 mb-6" />
+        <img src="/public/QuotationIcon.webp" alt="Quote" class="w-12 h-12 md:w-16 md:h-16 mb-6" />
         <blockquote class="text-lg md:text-xl text-gray-700 leading-relaxed mb-6">
           "I couldn't read the Bible for years. Now I can read every day again. These glasses
           brought back not just my sight, but a part of my life I thought was gone."
